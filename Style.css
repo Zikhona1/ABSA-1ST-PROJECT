@@ -1,0 +1,112 @@
+/*navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  
+  li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:navy;
+    font-family: cursive;
+  }
+
+ li :hover{
+     background-color: black;
+ }
+  
+html{
+    background-image:url('back.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+    /*HOME PAGE*/
+
+    .container img{
+        display: block;
+        border-radius: 15px;
+        text-align: center;
+        margin: auto;
+            }
+
+
+    .heading{
+        text-align: center;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .social{
+        margin-left: 46%;
+    }
+/*About page*/
+.About{
+    color:rgb(0, 255, 221);
+    text-align: center;
+    font-size: large;
+}
+
+.para{
+    color:rgb(0, 0, 0);
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.work{
+    text-align: center;
+    color: rgb(0, 217, 255);
+}
+
+/*Projects*/
+
+
+
+/*Contact*/
+form{
+    font-size:150%;
+    font-family:roman;
+ color:rgb(5, 5, 5);
+ text-align: center;
+}
+
+.submission{
+    text-align: center;
+    color: rgb(0, 255, 255);
+}
+
+.media{
+    text-align: center;
+    margin-left: 5%;
+    
+}
+
